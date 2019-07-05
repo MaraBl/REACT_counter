@@ -21,14 +21,11 @@ var Counter = React.createClass({
     componentWillUnmount: function () {
         console.log('This method is called when a component is being removed from the DOM');
     },
-    
-
     increment: function() {
         this.setState({
             counter: this.state.counter+1
         });
     },
-
     decrement: function() {
         this.setState ({
             counter: this.state.counter-1
